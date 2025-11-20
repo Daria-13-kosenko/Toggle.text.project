@@ -1,6 +1,10 @@
-import { useRef, useState } from 'react'
 import './App.css'
+import ToggleText from './components/ToggleText'
 function App() {
-  return <div></div>
+  return (
+    <div>
+      <ToggleText />
+    </div>
+  )
 }
 export default App
